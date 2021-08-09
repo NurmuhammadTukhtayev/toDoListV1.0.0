@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./imgs/charts.jpg");
+  /*background-color: bisque;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.head input{
+  width: 560px;
+  height: 30px;
+  background: transparent;
+  border: 1px black solid;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.addShow button{
+  background-color: transparent;
+  padding: 2px;
+  width: 75px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: Candara;
+  font-size: 20px;
+}
+.addShow button:hover{
+  cursor: pointer;
+  color: white;
+}
+.head label{
+  font-size: 25px;
+  font-family: Candara;
+  margin: 5px;
+}
+
+.getPlan{
+  font-family: Candara;
+  color: black;
+  border: 1px solid black;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonDone {
+  padding: 2px;
+  width: 75px;
+  height: 30px;
+  margin: 5px;
+  background-color: transparent;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+}
+
+.buttonDelete {
+  padding: 2px;
+  width: 75px;
+  height: 30px;
+  margin: 5px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  border-radius: 5px;
+}
+
+.buttonDelete:hover{
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.buttonDone:hover{
+  cursor: pointer;
+  color: white;
+  background-color: green;
+}
